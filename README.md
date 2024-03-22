@@ -5,7 +5,7 @@ This means I no longer need to manually check anything before commuting to or fr
 
 ## Technical Infrastructure 
 ![Example](https://github.com/jo12no/lightrail-sydney-alerts/assets/19522573/54ff096a-902e-4fce-8c3b-3923377c1ada)
-* For `lightrail_timetable_alert.py` which simply checks whether the train is still scheduled to leave a specified time, there's no need to save results in a BigQuery table to check for uniqueness. 
+* For `lightrail_timetable_alert.py` which simply checks whether the train is still scheduled to leave at a specified time, there's no need to save results in a BigQuery table to check for uniqueness. 
 
 ## Example Output Notifications  
 ![Output2](https://github.com/jo12no/lightrail-sydney-alerts/assets/19522573/819841a1-8ba7-475b-aed3-7c4ddc42786c)
