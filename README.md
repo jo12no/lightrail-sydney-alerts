@@ -24,7 +24,9 @@ Alert Processing: The script processes the fetched alert data to extract and for
 
 BigQuery Integration: It compares the processed alerts against existing records in a BigQuery table to determine if they are new.
 
-Email Notifications: If an alert is new (not already in the BigQuery table), it formats the alert details into an email body and sends an email notification to a pre-configured recipient.
+Email Processing: If an alert is new (not already in the BigQuery table), it formats the alert details into an email body.
+
+Email Sending (SMTP protocol): the email is sent from a service 'bot' email account, which emails my personal account. 
 
 Scheduling and Hosting: Designed to be hosted as a serverless Cloud Function, the script is intended to execute every minute.
 
