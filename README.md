@@ -1,9 +1,9 @@
 # lightrail-sydney-alerts 🚃
-This project uses the TNSW API to check for Sydney Lightrail for:
-1) Service status alerts `lightrail_service_status_alert.py`, and 
-2) Timetable changes for a specified time `lightrail_timetable_alert.py`.
+This project integrates with the Transport for New South Wales (TNSW) API to monitor the Sydney Light Rail network for:
+1) Service status alerts via `lightrail_service_status_alert.py`, and 
+2) Timetable modifications for specified times through `lightrail_timetable_alert.py`.
 
-An email is sent as a push notification on new events. 
+Whenever new events are detected, an email is automatically sent as a push notification.
 
 This means I no longer need to manually check anything before commuting to or from the office (which is helpful given recent reliability issues!!)
 
