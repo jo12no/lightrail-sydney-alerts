@@ -1,5 +1,5 @@
 # lightrail-sydney-alerts 🚃
-This project integrates with the Transport for New South Wales (TNSW) API to monitor the Sydney Light Rail network for:
+This project integrates with the Transport for New South Wales (TfNSW) API to monitor the Sydney Light Rail network for:
 1) Service status alerts via `lightrail_service_status_alert.py`, and 
 2) Timetable modifications for specified times through `lightrail_timetable_alert.py`.
 
