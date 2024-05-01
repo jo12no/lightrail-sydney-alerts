@@ -20,9 +20,9 @@ This means I no longer need to manually check anything before commuting to or fr
 <sup>_* Images obfuscated for privacy._</sup>
 
 ## Description 
-The script operates as a monitoring tool for Sydney Lightrail line alerts by interacting with the Transport for New South Wales (TNSW) API. It performs several key functions:
+The script operates as a monitoring tool for Sydney Lightrail line alerts by interacting with the Transport for New South Wales (TfNSW) API. It performs several key functions:
 
-Data Fetching: It retrieves alert data from the TNSW API specifically for the Sydney Lightrail lines.
+Data Fetching: It retrieves alert data from the TfNSW API specifically for the Sydney Lightrail lines.
 
 Alert Processing: The script processes the fetched alert data to extract and format relevant information like the alert's ID, URL, title, description, and start/end dates. It also checks if the L1 line is impacted. This is saved to BigQuery as an `alert`. 
 
